@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box; }
+
+::-webkit-input-placeholder {
+  color: gray; }
+
+::-ms-input-placeholder {
+  color: gray; }
+
+::placeholder {
+  color: gray; }
+
+html,
+body {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5; }
+
+body {
+  background-color: #d2e1dd; }
+
+h1 {
+  color: #c69; }
+
