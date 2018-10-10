@@ -1,7 +1,14 @@
-const css = require('./stylesheets/main.scss');
-let dog = 'beauty';
-let cat;
+class User {
 
-[dog = 'buster', cat = 'Morty'] = [cat, dog];
-
-console.log(dog, cat);
+    constructor(name) {
+      this.name = name;
+    }
+  
+    sayHi() {
+      alert(this.name);
+    }
+  
+  }
+  
+  let user = new User("Mark");
+  user.sayHi();

@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "build": "webpack-dev-server"
+    "build": "webpack && webpack-dev-server --hot"
   },
   "author": "Bryan Elliott",
   "license": "MIT",
