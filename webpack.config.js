@@ -32,7 +32,7 @@ module.exports = {
                     options: {
                         includePaths: [path.resolve(__dirname, 'src', 'stylesheets')]
                     }                    
-                }, {
+                },{
                     loader: "postcss-loader" /* (css autoprefixer) */
                 }
                 ]

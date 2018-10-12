@@ -4,7 +4,9 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "build": "webpack && webpack-dev-server --hot"
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
   },
   "author": "Bryan Elliott",
   "license": "MIT",
@@ -14,7 +16,6 @@
     "autoprefixer": "^9.1.5",
     "babel-loader": "^8.0.4",
     "css-loader": "^1.0.0",
-    "extract-text-webpack-plugin": "^3.0.2",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.4.3",
     "node-sass": "^4.9.3",
@@ -22,7 +23,6 @@
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
     "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.9"
+    "webpack-cli": "^3.1.2"
   }
 }

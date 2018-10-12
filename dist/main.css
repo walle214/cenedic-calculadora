@@ -1,13 +1,13 @@
 * {
   box-sizing: border-box; }
 
-::-webkit-input-placeholder {
+input::-webkit-input-placeholder {
   color: gray; }
 
-::-ms-input-placeholder {
+input::-ms-input-placeholder {
   color: gray; }
 
-::placeholder {
+input::placeholder {
   color: gray; }
 
 html,
@@ -23,6 +23,6 @@ html {
 body {
   background-color: #d2e1dd; }
 
-h1 {
-  color: #c69; }
+h2 {
+  color: #036; }
 
