@@ -1,4 +1,4 @@
-import styles from './stylesheets/main.scss';
+import styles from './scss/main.scss';
 class User {
 
   constructor(name) {
@@ -10,6 +10,6 @@ class User {
   }
 
 }
-  
+
 let user = new User("Mark");
 user.sayHi();
