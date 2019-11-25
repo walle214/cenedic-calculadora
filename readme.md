@@ -1,6 +1,7 @@
 # Webpack 4 - Babel & SCSS with CSS auto-prefixer Boilerplate Starter
 
 A nice starter template for web projects using latest javascript (ES2017) and SASS(scss).
+Optionally import desired Bootstrap4 modules.
 
 
 ### Installation
@@ -11,14 +12,14 @@ npm install
 
 ### Development with live reload
 
-For live reload functionality, run `npm run watch` and open /dist/index.html with vscode 'Live Server' plugin.
+For development with live reload , run `npm run dev`.
 ```
-npm run watch
+npm run dev
 ```
 
 ### Build Prod Version
 
-For production version change `mode:` from `development` to `production` in `webpack.config.js`.
+For production build, run `npm run build`. 
 
 ```
 npm run build
@@ -29,5 +30,5 @@ npm run build
 * ES7 or latest Support via [babel-loader](https://github.com/babel/babel-loader)
 * SASS Support via [sass-loader](https://github.com/jtangelder/sass-loader)
 * CSS auto-vendor-prefixing via [postcss-loader](https://github.com/postcss/postcss) with the [autoprefixer](https://github.com/postcss/autoprefixer) plugin
+* optionally import desired Bootstrap4 scss modules
 
-When you run `webpack` or `npm run watch` or `npm run build` I use the [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin) and [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin) to inject the `index.html` file with the css link in the head and the js bundle link at the bottom of the body them move all built files to the `dist` folder.
