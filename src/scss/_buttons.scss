@@ -8,7 +8,7 @@
   }
   &-black {
     background-color: rgba($black, 0.6);
-    &:hover {
+    &:active {
       filter: brightness(3) !important;
     }
   }
@@ -27,7 +27,20 @@
     font-size: 1.5rem;
     // padding: 0.25rem 0;
   }
-  &:hover {
-    filter: brightness(1.5);
+  &:active {
+    filter: brightness(1.25);
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .button {
+    &:hover {
+      filter: brightness(1.25);
+    }
+    &-black {
+      &:hover {
+        filter: brightness(3) !important;
+      }
+    }
   }
 }
