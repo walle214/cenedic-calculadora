@@ -1,0 +1,33 @@
+.button {
+  font-size: 2rem;
+  text-align: center;
+  //   height: 3.5rem;
+  //   width: 50%;
+  &-white {
+    background-color: $grey;
+  }
+  &-black {
+    background-color: rgba($black, 0.6);
+    &:hover {
+      filter: brightness(3) !important;
+    }
+  }
+  &-red {
+    background-color: $red;
+    padding: 0.5rem;
+  }
+  &-primary {
+    background-color: $accent;
+  }
+  &-dot {
+    font-size: 0.25rem;
+  }
+  &-memory,
+  &-clear {
+    font-size: 1.5rem;
+    // padding: 0.25rem 0;
+  }
+  &:hover {
+    filter: brightness(1.5);
+  }
+}

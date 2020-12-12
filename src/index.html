@@ -1,15 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Webpack-babel-scss</title>
-</head>
-<body>
-  <h2>Webpack 4 - Babel & SCSS & css auto-prefixer - webpack boilerplate</h2>
-  <p>Optionally include desired bootstrap modules</p>
-  <p>For live reload functionality, run 'npm run dev'</p>
-  <p>For production build, run 'npm run build'</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculadora</title>
+    <script
+      src="https://kit.fontawesome.com/311f878f3e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="display">
+        <div class="display__result">45.1</div>
+        <div class="display__input">
+          <div class="display__input__text">12.5+43.6</div>
+          <div class="display__input__delete">
+            <i class="fas fa-backspace"></i>
+          </div>
+        </div>
+      </div>
+      <div class="options">
+        <div class="options-no-numeric">
+        <div class="button button-white button-memory">M</div>
+        <div class="button button-white button-memory">M+</div>
+        <div class="button button-white button-memory">M-</div>
+        <div class="button button-red button-clear">C</div>
+      </div>
+      <div class="options-numeric">
+          <div class="button button-black">7</div>
+          <div class="button button-black">8</div>
+          <div class="button button-black">9</div>
+          <div class="button button-white"><i class="fas fa-divide"></i></div>
+          <div class="button button-black">4</div>
+          <div class="button button-black">5</div>
+          <div class="button button-black">6</div>
+          <div class="button button-white"><i class="fas fa-times"></i></div>
+          <div class="button button-black">1</div>
+          <div class="button button-black">2</div>
+          <div class="button button-black">3</div>
+          <div class="button button-white"><i class="fas fa-minus"></i></div>
+          <div class="button button-black button-dot"><i class="fas fa-circle"></i></div>
+          <div class="button button-black">0</div>
+          <div class="button button-primary"><i class="fas fa-equals"></i></div>
+          <div class="button button-white"><i class="fas fa-plus"></i></div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </body>
 </html>
