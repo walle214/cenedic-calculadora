@@ -18,40 +18,57 @@
   <body>
     <div class="wrapper">
       <div class="display">
-        <div class="display__result">45.1</div>
+        <div id="display-result" class="display__result">45.1</div>
         <div class="display__input">
-          <div class="display__input__text">12.5+43.6</div>
-          <div class="display__input__delete">
+          <div id="display-text" class="display__input__text">12.5+43.6</div>
+          <div id="display-delete" class="display__input__delete">
             <i class="fas fa-backspace"></i>
           </div>
         </div>
       </div>
       <div class="options">
         <div class="options-no-numeric">
-        <div class="button button-white button-memory">M</div>
-        <div class="button button-white button-memory">M+</div>
-        <div class="button button-white button-memory">M-</div>
-        <div class="button button-red button-clear">C</div>
-      </div>
-      <div class="options-numeric">
-          <div class="button button-black">7</div>
-          <div class="button button-black">8</div>
-          <div class="button button-black">9</div>
-          <div class="button button-white"><i class="fas fa-divide"></i></div>
-          <div class="button button-black">4</div>
-          <div class="button button-black">5</div>
-          <div class="button button-black">6</div>
-          <div class="button button-white"><i class="fas fa-times"></i></div>
-          <div class="button button-black">1</div>
-          <div class="button button-black">2</div>
-          <div class="button button-black">3</div>
-          <div class="button button-white"><i class="fas fa-minus"></i></div>
-          <div class="button button-black button-dot"><i class="fas fa-circle"></i></div>
-          <div class="button button-black">0</div>
-          <div class="button button-primary"><i class="fas fa-equals"></i></div>
-          <div class="button button-white"><i class="fas fa-plus"></i></div>
+          <div id="memory-read" class="button button-white button-memory">
+            M
+          </div>
+          <div id="memory-add" class="button button-white button-memory">
+            M+
+          </div>
+          <div id="memory-delete" class="button button-white button-memory">
+            M-
+          </div>
+          <div id="result-clear" class="button button-red button-clear">C</div>
         </div>
-      </div>
+        <div class="options-numeric">
+          <div id="number-7" class="button button-black">7</div>
+          <div id="number-8" class="button button-black">8</div>
+          <div id="number-9" class="button button-black">9</div>
+          <div id="operation-divide" class="button button-white">
+            <i class="fas fa-divide"></i>
+          </div>
+          <div id="number-4" class="button button-black">4</div>
+          <div id="number-5" class="button button-black">5</div>
+          <div id="number-6" class="button button-black">6</div>
+          <div id="operation-multiply" class="button button-white">
+            <i class="fas fa-times"></i>
+          </div>
+          <div id="number-1" class="button button-black">1</div>
+          <div id="number-2" class="button button-black">2</div>
+          <div id="number-3" class="button button-black">3</div>
+          <div id="operation-substract" class="button button-white">
+            <i class="fas fa-minus"></i>
+          </div>
+          <div id="number-dot" class="button button-black button-dot">
+            <i class="fas fa-circle"></i>
+          </div>
+          <div id="number-0" class="button button-black">0</div>
+          <div id="operation-equals" class="button button-primary">
+            <i class="fas fa-equals"></i>
+          </div>
+          <div id="operation-add" class="button button-white">
+            <i class="fas fa-plus"></i>
+          </div>
+        </div>
       </div>
     </div>
   <script type="text/javascript" src="bundle.js"></script></body>
