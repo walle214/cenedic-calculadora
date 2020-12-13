@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "normalize.css": "^8.0.1",
-    "simple-state-management": "^1.0.5"
+    "simple-state-management": "^1.0.5",
+    "workbox-webpack-plugin": "^6.0.2"
   }
 }
