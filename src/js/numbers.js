@@ -1,5 +1,5 @@
 import { bindToDisplay, getText, setError } from './display';
-import { isValidLastCharacter } from './utils';
+// import { isValidLastCharacter } from './utils';
 const elementNumber9 = document.getElementById('number-9');
 const elementNumber8 = document.getElementById('number-8');
 const elementNumber7 = document.getElementById('number-7');
@@ -42,9 +42,10 @@ elementNumber0.addEventListener('click', () => {
   const currText = getText();
   const arr = currText.split(/[+*\/-]+/);
   console.log(arr);
-  if (currText.split('').length === 0)
-    return setError('No puede empezar con 0');
-  else if (!isValidLastCharacter(['.']))
-    return setError('No puede empezar con 0');
-  else bindToDisplay('0');
+  // if (currText.split('').length === 0)
+  //   return setError('No puede empezar con 0');
+  // else if (!isValidLastCharacter(['.']))
+  //   return setError('No puede empezar con 0');
+  // else
+  bindToDisplay('0');
 });

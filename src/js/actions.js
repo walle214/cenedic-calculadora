@@ -3,7 +3,8 @@ import { isValidLastCharacter } from './utils';
 
 export const calcResult = () => {
   if (!isValidLastCharacter()) return setError('Operacion invalida');
-  setResult(eval(getText()));
+  const result = eval(getText());
+  setResult(result.toString() === 'NaN' ? 'Error' : result);
   //   //   const items = getText().split(/[+*\/-]+/);
   //   const { temp, value: items } = getText()
   //     .split('')
