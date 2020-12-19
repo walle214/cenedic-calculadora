@@ -3,10 +3,11 @@ const elementMemoryRead = document.getElementById('memory-read');
 const elementMemoryAdd = document.getElementById('memory-add');
 const elementMemoryDelete = document.getElementById('memory-delete');
 window.addEventListener('load', () =>
-  localStorage.setItem('memory', localStorage.getItem('memory') || '')
+  localStorage.setItem('memory', localStorage['memory'] ?? '')
 );
 elementMemoryRead.addEventListener('click', () => {
   let mem = localStorage.getItem('memory');
+  console.log(mem);
   if (!!mem) mem = Number(mem);
   else return;
   bindToDisplay(mem);
