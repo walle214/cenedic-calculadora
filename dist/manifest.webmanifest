@@ -4,19 +4,19 @@
   "description": "Calculadora básica con JS",
   "icons": [
     {
-      "src": "/img/icons-192.png",
+      "src": "./img/icons-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/img/icons-512.png",
+      "src": "./img/icons-512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": "/index.html",
+  "start_url": "/cenedic-calculadora/",
   "background_color": "#56666a",
   "display": "standalone",
-  "scope": "/",
+  "scope": "/cenedic-calculadora/",
   "theme_color": "#56666a"
 }
