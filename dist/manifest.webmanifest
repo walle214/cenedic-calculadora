@@ -14,9 +14,9 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "/cenedic-calculadora/index.html",
+  "start_url": "./index.html",
   "background_color": "#56666a",
   "display": "standalone",
-  "scope": "/cenedic-calculadora/",
+  "scope": "./",
   "theme_color": "#56666a"
 }
